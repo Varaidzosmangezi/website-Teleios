@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+#nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(12, 35, 64);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding-right: 5px;
+}
+#nav .logo img {
+    height: 100%;
+    width: 100%;
+}
+#nav .link  {
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+
+}
+#main .perfection img {
+    float: right;
+    width: 200px;
+}
+#main .whatwedo {
+    background-color: rgb(12, 35, 64) ;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#main .whatwedo p {
+    padding: 20px;
+    color: white;
+    width: 80%;
+    align-items: center;
+}
+#main .whatwedo img {
+    width: 100%;
+}
+#footer{
+    background-color: rgb(12, 35, 64);
+    width: 100%;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    float: right;
+}

@@ -1,0 +1,33 @@
+#aboutmain {
+    width: 100%;
+}
+#partners .Spartners {
+    background-color: rgb(12, 35, 64);
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#partners .Spartners img {
+    width: 100%;
+}
+#partners .Spartners figcaption {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#customers .Scustomers {
+    background-color: rgb(12, 35, 64);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+#customers .Scustomers img {
+    width: 100%;
+}
+#customers .Scustomers figcaption {
+    color: white;
+    padding-bottom: 10px;
+}
